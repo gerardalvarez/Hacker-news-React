@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import SubmitForm from "../components/SubmitForm";
+import Comment from "../components/Comment";
 import "./Submit.css";
 
 function Submit() {
@@ -11,6 +12,7 @@ function Submit() {
       </tr>
       <tr>
         <SubmitForm />
+          <Comment/>
       </tr>
     </table>
   );
